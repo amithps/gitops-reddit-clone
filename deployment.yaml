@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: reddit-clone-deployment:reddit-clone-pipeline:1.0
+  name: reddit-clone-pipeline
 spec:
   replicas: 1
   selector:
